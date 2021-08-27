@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <div>
     <router-view v-if="isRouterAlive"></router-view>
   </div>
@@ -26,6 +27,18 @@ export default {
     },
   },
 };
+=======
+  <img alt="Vue logo" src="./assets/logo.png">
+</template>
+
+<script>
+
+export default {
+  name: 'App',
+  components: {
+  }
+}
+>>>>>>> a83de56ccdab832ea1ea396a1f2685efc4000196
 </script>
 
 <style>
